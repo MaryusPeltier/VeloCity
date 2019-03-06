@@ -1,0 +1,29 @@
+#formLogin{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top:100px;
+}
+
+input:focus {
+    outline:none;
+}
+#formSignup{
+    display:none;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top:100px;
+}
+.moveFormLogin{
+    display:none;
+}
+.moveFormSignup{
+    display:block !important;
+}
+button{
+    background-color: none;
+    color: white;
+}
